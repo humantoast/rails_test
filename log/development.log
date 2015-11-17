@@ -1,0 +1,2710 @@
+
+
+Started GET "/" for ::1 at 2015-10-09 08:37:36 +0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/railties-4.2.2/lib/rails/templates/rails/welcome/index.html.erb (31.5ms)
+Completed 200 OK in 247ms (Views: 169.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-10-09 08:47:15 +0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/railties-4.2.2/lib/rails/templates/rails/welcome/index.html.erb (16.0ms)
+Completed 200 OK in 144ms (Views: 88.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/home" for ::1 at 2015-10-09 08:47:24 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.5ms)
+Completed 500 Internal Server Error in 14205ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (TypeError: Objektet understøtter ikke denne egenskab eller metode):
+    3: <head>
+    4:   <title>HelloApp</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+    9: <body>
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__771792852_65407760'
+
+
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (40.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (240.0ms)
+
+
+Started GET "/static_pages/home" for ::1 at 2015-10-09 08:49:11 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 144ms (Views: 142.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-09 08:49:12 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-09 08:49:12 +0200
+
+
+Started GET "/static_pages/home" for ::1 at 2015-10-09 08:49:22 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 249ms (Views: 247.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-09 08:49:23 +0200
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-09 08:49:23 +0200
+
+
+Started GET "/static_pages/home" for ::1 at 2015-10-09 08:52:01 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 174ms (Views: 170.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-09 08:52:01 +0200
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-09 08:52:01 +0200
+
+
+Started GET "/" for ::1 at 2015-10-09 09:11:38 +0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/railties-4.2.2/lib/rails/templates/rails/welcome/index.html.erb (20.0ms)
+Completed 200 OK in 138ms (Views: 84.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/about" for ::1 at 2015-10-09 09:11:51 +0200
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 781ms (Views: 778.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-10-09 09:31:16 +0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/railties-4.2.2/lib/rails/templates/rails/welcome/index.html.erb (16.0ms)
+Completed 200 OK in 144ms (Views: 92.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/about" for ::1 at 2015-10-09 09:31:31 +0200
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 685ms (Views: 683.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/test.css" for ::1 at 2015-10-09 09:31:32 +0200
+
+ActionController::RoutingError (No route matches [GET] "/static_pages/test.css"):
+  actionpack (4.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  C:/Ruby21-x64/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  C:/Ruby21-x64/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  C:/Ruby21-x64/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (8.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (108.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (8.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (474.5ms)
+
+
+Started GET "/static_pages/test.css" for ::1 at 2015-10-09 09:31:40 +0200
+
+ActionController::RoutingError (No route matches [GET] "/static_pages/test.css"):
+  actionpack (4.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  C:/Ruby21-x64/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  C:/Ruby21-x64/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  C:/Ruby21-x64/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.5ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (223.0ms)
+
+
+Started GET "/static_pages/about" for ::1 at 2015-10-09 09:33:26 +0200
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 291ms (Views: 287.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-09 09:33:27 +0200
+
+
+Started GET "/static_pages/test.css" for ::1 at 2015-10-09 09:33:27 +0200
+
+ActionController::RoutingError (No route matches [GET] "/static_pages/test.css"):
+  actionpack (4.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  C:/Ruby21-x64/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  C:/Ruby21-x64/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  C:/Ruby21-x64/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (8.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (8.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (8.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (318.0ms)
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-09 09:33:28 +0200
+
+
+Started GET "/static_pages/home" for ::1 at 2015-10-09 09:33:31 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 159ms (Views: 157.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/test.css" for ::1 at 2015-10-09 09:33:32 +0200
+
+ActionController::RoutingError (No route matches [GET] "/static_pages/test.css"):
+  actionpack (4.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  C:/Ruby21-x64/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  C:/Ruby21-x64/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  C:/Ruby21-x64/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.5ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (5.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (251.4ms)
+
+
+Started GET "/static_pages/test.css" for ::1 at 2015-10-09 09:33:39 +0200
+
+ActionController::RoutingError (No route matches [GET] "/static_pages/test.css"):
+  actionpack (4.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  C:/Ruby21-x64/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  C:/Ruby21-x64/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  C:/Ruby21-x64/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.5ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (209.1ms)
+
+
+Started GET "/static_pages/home" for ::1 at 2015-10-09 09:37:04 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 1044ms (Views: 992.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/test.css" for ::1 at 2015-10-09 09:37:07 +0200
+
+ActionController::RoutingError (No route matches [GET] "/static_pages/test.css"):
+  actionpack (4.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  C:/Ruby21-x64/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  C:/Ruby21-x64/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  C:/Ruby21-x64/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (8.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (8.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (124.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (8.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (588.0ms)
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-09 09:37:08 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-09 09:37:08 +0200
+
+
+Started GET "/assets/test.self-a59da1bdad3c8e5210600fe6b578e7ec2acbba637dedc83d292bcdc6429534a9.css?body=1" for ::1 at 2015-10-09 09:37:08 +0200
+
+
+Started GET "/static_pages/home" for ::1 at 2015-10-09 09:37:17 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 202ms (Views: 199.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/test.self-a59da1bdad3c8e5210600fe6b578e7ec2acbba637dedc83d292bcdc6429534a9.css?body=1" for ::1 at 2015-10-09 09:37:17 +0200
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-09 09:37:17 +0200
+
+
+Started GET "/static_pages/test.css" for ::1 at 2015-10-09 09:37:18 +0200
+
+ActionController::RoutingError (No route matches [GET] "/static_pages/test.css"):
+  actionpack (4.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  C:/Ruby21-x64/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  C:/Ruby21-x64/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  C:/Ruby21-x64/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (29.5ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (20.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (8.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (346.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-09 09:37:18 +0200
+
+
+Started GET "/static_pages/home" for ::1 at 2015-10-09 09:37:19 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 195ms (Views: 193.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-09 09:37:20 +0200
+
+
+Started GET "/static_pages/test.css" for ::1 at 2015-10-09 09:37:20 +0200
+
+ActionController::RoutingError (No route matches [GET] "/static_pages/test.css"):
+  actionpack (4.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  C:/Ruby21-x64/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  C:/Ruby21-x64/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  C:/Ruby21-x64/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (17.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (296.5ms)
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-09 09:37:20 +0200
+
+
+Started GET "/assets/test.self-a59da1bdad3c8e5210600fe6b578e7ec2acbba637dedc83d292bcdc6429534a9.css?body=1" for ::1 at 2015-10-09 09:37:20 +0200
+
+
+Started GET "/static_pages/about" for ::1 at 2015-10-09 09:37:30 +0200
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 192ms (Views: 190.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/test.css" for ::1 at 2015-10-09 09:37:30 +0200
+
+ActionController::RoutingError (No route matches [GET] "/static_pages/test.css"):
+  actionpack (4.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  C:/Ruby21-x64/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  C:/Ruby21-x64/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  C:/Ruby21-x64/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.5ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (8.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (257.5ms)
+
+
+Started GET "/" for ::1 at 2015-10-17 01:45:47 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 386ms (Views: 378.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test.css" for ::1 at 2015-10-17 01:45:47 +0200
+
+ActionController::RoutingError (No route matches [GET] "/test.css"):
+  actionpack (4.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  C:/Ruby21-x64/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  C:/Ruby21-x64/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  C:/Ruby21-x64/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (8.5ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (38.3ms)
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-17 01:45:47 +0200
+
+
+Started GET "/assets/test.self-a59da1bdad3c8e5210600fe6b578e7ec2acbba637dedc83d292bcdc6429534a9.css?body=1" for ::1 at 2015-10-17 01:45:47 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-17 01:45:47 +0200
+
+
+Started GET "/" for ::1 at 2015-10-17 01:57:24 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (9.6ms)
+Completed 500 Internal Server Error in 237ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Permission denied @ sys_fail2 - (C:/Users/Thorvald/Dropbox/Websites/Rails/hello_app/tmp/cache/assets/development/sprockets/v3.0/5Lly_CA8DZvPhQV2jDQx-Y6P_y3Ygra9t5jfSlGhHDA.cache.68815680.684.706485, C:/Users/Thorvald/Dropbox/Websites/Rails/hello_app/tmp/cache/assets/development/sprockets/v3.0/5Lly_CA8DZvPhQV2jDQx-Y6P_y3Ygra9t5jfSlGhHDA.cache)):
+    2: <html>
+    3:   <head>
+    4:     <title><%= full_title(yield(:title)) %></title>
+    5:     <%= stylesheet_link_tag 'application', media: 'all',
+    6:                                            'data-turbolinks-track' => true %>
+    7:     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    8:     <%= csrf_meta_tags %>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1520008496_67565540'
+
+
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (144.2ms)
+
+
+Started GET "/" for ::1 at 2015-10-17 01:59:41 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+SyntaxError (C:/Users/Thorvald/Dropbox/Websites/Rails/hello_app/app/views/layouts/application.html.erb:5: syntax error, unexpected =>, expecting ')'
+... 'application', media: 'all' => true );@output_buffer.safe_a...
+...                               ^):
+  app/views/layouts/application.html.erb:5: syntax error, unexpected =>, expecting ')'
+
+
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (20.1ms)
+
+
+Started GET "/" for ::1 at 2015-10-17 02:00:03 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 3065ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (TypeError: Object doesn't support this property or method):
+    3:   <head>
+    4:     <title><%= full_title(yield(:title)) %></title>
+    5:     <%= stylesheet_link_tag 'application', media: 'all'%>
+    6:     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:     <%= csrf_meta_tags %>
+    8:     <!--[if lt IE 9]>
+    9:       <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js">
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___1520008496_69087800'
+
+
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (19.5ms)
+
+
+Started GET "/" for ::1 at 2015-10-17 02:00:18 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 1703ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (TypeError: Object doesn't support this property or method):
+    3:   <head>
+    4:     <title><%= full_title(yield(:title)) %></title>
+    5:     <%= stylesheet_link_tag 'application', media: 'all'%>
+    6:     <%= javascript_include_tag 'application'%>
+    7:     <%= csrf_meta_tags %>
+    8:     <!--[if lt IE 9]>
+    9:       <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js">
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___1520008496_62207020'
+
+
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (21.7ms)
+
+
+Started GET "/" for ::1 at 2015-10-17 02:00:32 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 18ms (Views: 17.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-17 02:00:32 +0200
+
+
+Started GET "/assets/test.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-17 02:00:32 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-17 02:00:32 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-17 02:07:31 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 2185ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Permission denied @ utime_failed - C:/Users/Thorvald/Dropbox/Websites/Rails/hello_app/tmp/cache/assets/development/sprockets/v3.0/DPK8SuYkkCoasIH3ysXyZ6DDyIShJCYcmatH9EbJe2Y.cache):
+    2: <html>
+    3:   <head>
+    4:     <title><%= full_title(yield(:title)) %></title>
+    5:     <%= stylesheet_link_tag 'application', media: 'all'%>
+    6:     <%= csrf_meta_tags %>
+    7:     <!--[if lt IE 9]>
+    8:       <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js">
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__541741850_67940560'
+
+
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (19.7ms)
+
+
+Started GET "/" for ::1 at 2015-10-17 02:09:00 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 2168ms (Views: 2159.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-c6e889aec919d691cf784c652177ab2507b7ce118c00fa9ca92bf47c33d76cc5.css?body=1" for ::1 at 2015-10-17 02:09:02 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-17 02:09:02 +0200
+
+
+Started GET "/assets/test.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-17 02:09:02 +0200
+
+
+Started GET "/" for ::1 at 2015-10-17 02:11:39 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 135ms (Views: 134.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-c6e889aec919d691cf784c652177ab2507b7ce118c00fa9ca92bf47c33d76cc5.css?body=1" for ::1 at 2015-10-17 02:11:40 +0200
+
+
+Started GET "/assets/test.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-17 02:11:40 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-17 02:11:40 +0200
+
+
+Started GET "/images/rails.png" for ::1 at 2015-10-17 02:11:40 +0200
+
+ActionController::RoutingError (No route matches [GET] "/images/rails.png"):
+  actionpack (4.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  C:/Ruby21-x64/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  C:/Ruby21-x64/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  C:/Ruby21-x64/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.5ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (238.3ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (582.8ms)
+
+
+Started GET "/" for ::1 at 2015-10-17 02:12:02 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 50ms (Views: 48.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/test.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-10-17 02:12:03 +0200
+
+
+Started GET "/assets/static_pages.self-c6e889aec919d691cf784c652177ab2507b7ce118c00fa9ca92bf47c33d76cc5.css?body=1" for ::1 at 2015-10-17 02:12:03 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-17 02:12:03 +0200
+
+
+Started GET "/" for ::1 at 2015-10-17 02:14:20 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 134ms (Views: 134.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-c6e889aec919d691cf784c652177ab2507b7ce118c00fa9ca92bf47c33d76cc5.css?body=1" for ::1 at 2015-10-17 02:14:20 +0200
+
+
+Started GET "/assets/style.self-e2805994bb37b30b8eab5f960e0f9e585b56ec2cb4a2ea13e651b320d6713b8b.css?body=1" for ::1 at 2015-10-17 02:14:20 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-17 02:14:20 +0200
+
+
+Started GET "/" for ::1 at 2015-10-17 02:14:31 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 131ms (Views: 130.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-c6e889aec919d691cf784c652177ab2507b7ce118c00fa9ca92bf47c33d76cc5.css?body=1" for ::1 at 2015-10-17 02:14:31 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-17 02:14:31 +0200
+
+
+Started GET "/assets/style.self-e8be179f7bd2717d74c81f4a533a6458adfed7800ab6a2878c8713a83d05196b.css?body=1" for ::1 at 2015-10-17 02:14:31 +0200
+
+
+Started GET "/" for ::1 at 2015-10-17 02:14:35 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 143ms (Views: 141.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-c6e889aec919d691cf784c652177ab2507b7ce118c00fa9ca92bf47c33d76cc5.css?body=1" for ::1 at 2015-10-17 02:14:35 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-17 02:14:35 +0200
+
+
+Started GET "/assets/style.self-efeb1136bced8952b65732ba19809fc31ad2d510d6801201019e5e4c04425304.css?body=1" for ::1 at 2015-10-17 02:14:35 +0200
+
+
+Started GET "/" for ::1 at 2015-10-17 02:14:40 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 141ms (Views: 141.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-c6e889aec919d691cf784c652177ab2507b7ce118c00fa9ca92bf47c33d76cc5.css?body=1" for ::1 at 2015-10-17 02:14:40 +0200
+
+
+Started GET "/assets/style.self-fff12ded34be594f37dff4e58e6560c39716f1b8284eef5628e9e1645c3e9166.css?body=1" for ::1 at 2015-10-17 02:14:40 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-17 02:14:40 +0200
+
+
+Started GET "/" for ::1 at 2015-10-17 02:14:46 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 276ms (Views: 275.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-c6e889aec919d691cf784c652177ab2507b7ce118c00fa9ca92bf47c33d76cc5.css?body=1" for ::1 at 2015-10-17 02:14:46 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-17 02:14:46 +0200
+
+
+Started GET "/assets/style.self-415e5f233b66ba038525283c9eda8126570222209b476493c860015c9a82b684.css?body=1" for ::1 at 2015-10-17 02:14:46 +0200
+
+
+Started GET "/" for ::1 at 2015-10-17 02:15:31 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 145ms (Views: 144.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-c6e889aec919d691cf784c652177ab2507b7ce118c00fa9ca92bf47c33d76cc5.css?body=1" for ::1 at 2015-10-17 02:15:32 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-17 02:15:32 +0200
+
+
+Started GET "/assets/style.self-3e432cfcb8e6688d68bcad44b9c93a0c88be24102802711a0f63efc241fcd329.css?body=1" for ::1 at 2015-10-17 02:15:32 +0200
+
+
+Started GET "/" for ::1 at 2015-10-17 02:16:54 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 115ms (Views: 113.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-c6e889aec919d691cf784c652177ab2507b7ce118c00fa9ca92bf47c33d76cc5.css?body=1" for ::1 at 2015-10-17 02:16:54 +0200
+
+
+Started GET "/assets/style.self-486c0264120f10f82df82066770e50c3536bbb385de5bcb0eed41f12ef5c1a95.css?body=1" for ::1 at 2015-10-17 02:16:54 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-17 02:16:54 +0200
+
+
+Started GET "/" for ::1 at 2015-10-17 02:16:58 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 139ms (Views: 137.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-c6e889aec919d691cf784c652177ab2507b7ce118c00fa9ca92bf47c33d76cc5.css?body=1" for ::1 at 2015-10-17 02:16:58 +0200
+
+
+Started GET "/assets/style.self-1c65e39ad41241addbbc9958b19362b8f82de40fd9cc35bf29813c3908cbaa60.css?body=1" for ::1 at 2015-10-17 02:16:58 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-17 02:16:58 +0200
+
+
+Started GET "/" for ::1 at 2015-10-17 02:18:31 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 102ms (Views: 101.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-c6e889aec919d691cf784c652177ab2507b7ce118c00fa9ca92bf47c33d76cc5.css?body=1" for ::1 at 2015-10-17 02:18:31 +0200
+
+
+Started GET "/assets/style.self-48f680a7c049a9d97c8f866dfe8d6cc999dcffab5389e085f99a74eb4580e569.css?body=1" for ::1 at 2015-10-17 02:18:31 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-17 02:18:31 +0200
+
+
+Started GET "/" for ::1 at 2015-10-17 02:18:51 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 145ms (Views: 144.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-c6e889aec919d691cf784c652177ab2507b7ce118c00fa9ca92bf47c33d76cc5.css?body=1" for ::1 at 2015-10-17 02:18:51 +0200
+
+
+Started GET "/assets/style.self-46ea3fd43787a94dd6db18ad1c137722a2598fed0e19dbd712e08a7fd5fea700.css?body=1" for ::1 at 2015-10-17 02:18:51 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-17 02:18:51 +0200
+
+
+Started GET "/" for ::1 at 2015-10-17 02:18:55 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 58ms (Views: 57.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-c6e889aec919d691cf784c652177ab2507b7ce118c00fa9ca92bf47c33d76cc5.css?body=1" for ::1 at 2015-10-17 02:18:55 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-17 02:18:56 +0200
+
+
+Started GET "/assets/style.self-48f680a7c049a9d97c8f866dfe8d6cc999dcffab5389e085f99a74eb4580e569.css?body=1" for ::1 at 2015-10-17 02:18:56 +0200
+
+
+Started GET "/" for ::1 at 2015-10-17 02:19:23 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 125ms (Views: 124.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-c6e889aec919d691cf784c652177ab2507b7ce118c00fa9ca92bf47c33d76cc5.css?body=1" for ::1 at 2015-10-17 02:19:23 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-17 02:19:23 +0200
+
+
+Started GET "/assets/style.self-10fc762a8347c55a0dceb65e5db6bdce7a80d174d12b6bbd5bbeed0be005211f.css?body=1" for ::1 at 2015-10-17 02:19:23 +0200
+
+
+Started GET "/" for ::1 at 2015-10-17 02:19:29 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 51ms (Views: 50.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-c6e889aec919d691cf784c652177ab2507b7ce118c00fa9ca92bf47c33d76cc5.css?body=1" for ::1 at 2015-10-17 02:19:29 +0200
+
+
+Started GET "/assets/style.self-10fc762a8347c55a0dceb65e5db6bdce7a80d174d12b6bbd5bbeed0be005211f.css?body=1" for ::1 at 2015-10-17 02:19:29 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-17 02:19:29 +0200
+
+
+Started GET "/" for ::1 at 2015-10-17 02:20:12 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 136ms (Views: 136.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-c6e889aec919d691cf784c652177ab2507b7ce118c00fa9ca92bf47c33d76cc5.css?body=1" for ::1 at 2015-10-17 02:20:12 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-17 02:20:12 +0200
+
+
+Started GET "/assets/style.self-5fbc16b569870d760da7f96d579b51c579072e20c40c7c4cef708b0438da13f1.css?body=1" for ::1 at 2015-10-17 02:20:12 +0200
+
+
+Started GET "/" for ::1 at 2015-10-17 02:21:42 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 54ms (Views: 53.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-10-17 02:24:58 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 57ms (Views: 56.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-c6e889aec919d691cf784c652177ab2507b7ce118c00fa9ca92bf47c33d76cc5.css?body=1" for ::1 at 2015-10-17 02:24:58 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-17 02:24:58 +0200
+
+
+Started GET "/assets/style.self-5fbc16b569870d760da7f96d579b51c579072e20c40c7c4cef708b0438da13f1.css?body=1" for ::1 at 2015-10-17 02:24:58 +0200
+
+
+Started GET "/" for ::1 at 2015-10-17 02:24:59 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 60ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Permission denied @ utime_failed - C:/Users/Thorvald/Dropbox/Websites/Rails/hello_app/tmp/cache/assets/development/sprockets/v3.0/5Lly_CA8DZvPhQV2jDQx-Y6P_y3Ygra9t5jfSlGhHDA.cache):
+    2: <html>
+    3:   <head>
+    4:     <title><%= full_title(yield(:title)) %></title>
+    5:     <%= stylesheet_link_tag 'application', media: 'all'%>
+    6:     <%= render 'layouts/shim' %>
+    7:     <%= csrf_meta_tags %>
+    8:   </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1094231516_122285060'
+
+
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (18.8ms)
+
+
+Started GET "/" for ::1 at 2015-10-17 02:25:01 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 56ms (Views: 56.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.self-5fbc16b569870d760da7f96d579b51c579072e20c40c7c4cef708b0438da13f1.css?body=1" for ::1 at 2015-10-17 02:25:01 +0200
+
+
+Started GET "/assets/static_pages.self-c6e889aec919d691cf784c652177ab2507b7ce118c00fa9ca92bf47c33d76cc5.css?body=1" for ::1 at 2015-10-17 02:25:01 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-17 02:25:01 +0200
+
+
+Started GET "/" for ::1 at 2015-10-17 02:25:01 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Permission denied @ utime_failed - C:/Users/Thorvald/Dropbox/Websites/Rails/hello_app/tmp/cache/assets/development/sprockets/v3.0/5Lly_CA8DZvPhQV2jDQx-Y6P_y3Ygra9t5jfSlGhHDA.cache):
+    2: <html>
+    3:   <head>
+    4:     <title><%= full_title(yield(:title)) %></title>
+    5:     <%= stylesheet_link_tag 'application', media: 'all'%>
+    6:     <%= render 'layouts/shim' %>
+    7:     <%= csrf_meta_tags %>
+    8:   </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1094231516_122285060'
+
+
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (18.9ms)
+
+
+Started GET "/" for ::1 at 2015-10-17 02:25:03 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 82ms (Views: 81.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-17 02:25:03 +0200
+
+
+Started GET "/assets/style.self-5fbc16b569870d760da7f96d579b51c579072e20c40c7c4cef708b0438da13f1.css?body=1" for ::1 at 2015-10-17 02:25:03 +0200
+
+
+Started GET "/assets/static_pages.self-c6e889aec919d691cf784c652177ab2507b7ce118c00fa9ca92bf47c33d76cc5.css?body=1" for ::1 at 2015-10-17 02:25:03 +0200
+
+
+Started GET "/" for ::1 at 2015-10-17 02:25:03 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 90ms (Views: 88.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-17 02:25:03 +0200
+
+
+Started GET "/assets/style.self-5fbc16b569870d760da7f96d579b51c579072e20c40c7c4cef708b0438da13f1.css?body=1" for ::1 at 2015-10-17 02:25:03 +0200
+
+
+Started GET "/assets/static_pages.self-c6e889aec919d691cf784c652177ab2507b7ce118c00fa9ca92bf47c33d76cc5.css?body=1" for ::1 at 2015-10-17 02:25:03 +0200
+
+
+Started GET "/" for ::1 at 2015-10-17 02:25:04 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 60ms (Views: 59.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-17 02:25:04 +0200
+
+
+Started GET "/assets/style.self-5fbc16b569870d760da7f96d579b51c579072e20c40c7c4cef708b0438da13f1.css?body=1" for ::1 at 2015-10-17 02:25:04 +0200
+
+
+Started GET "/assets/static_pages.self-c6e889aec919d691cf784c652177ab2507b7ce118c00fa9ca92bf47c33d76cc5.css?body=1" for ::1 at 2015-10-17 02:25:04 +0200
+
+
+Started GET "/" for ::1 at 2015-10-17 02:25:05 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 29ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Permission denied @ utime_failed - C:/Users/Thorvald/Dropbox/Websites/Rails/hello_app/tmp/cache/assets/development/sprockets/v3.0/5Lly_CA8DZvPhQV2jDQx-Y6P_y3Ygra9t5jfSlGhHDA.cache):
+    2: <html>
+    3:   <head>
+    4:     <title><%= full_title(yield(:title)) %></title>
+    5:     <%= stylesheet_link_tag 'application', media: 'all'%>
+    6:     <%= render 'layouts/shim' %>
+    7:     <%= csrf_meta_tags %>
+    8:   </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1094231516_122285060'
+
+
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.2ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (20.7ms)
+
+
+Started GET "/" for ::1 at 2015-10-17 02:25:06 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 85ms (Views: 83.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.self-5fbc16b569870d760da7f96d579b51c579072e20c40c7c4cef708b0438da13f1.css?body=1" for ::1 at 2015-10-17 02:25:06 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-17 02:25:06 +0200
+
+
+Started GET "/assets/static_pages.self-c6e889aec919d691cf784c652177ab2507b7ce118c00fa9ca92bf47c33d76cc5.css?body=1" for ::1 at 2015-10-17 02:25:06 +0200
+
+
+Started GET "/" for ::1 at 2015-10-17 02:25:06 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 20ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Permission denied @ utime_failed - C:/Users/Thorvald/Dropbox/Websites/Rails/hello_app/tmp/cache/assets/development/sprockets/v3.0/5Lly_CA8DZvPhQV2jDQx-Y6P_y3Ygra9t5jfSlGhHDA.cache):
+    2: <html>
+    3:   <head>
+    4:     <title><%= full_title(yield(:title)) %></title>
+    5:     <%= stylesheet_link_tag 'application', media: 'all'%>
+    6:     <%= render 'layouts/shim' %>
+    7:     <%= csrf_meta_tags %>
+    8:   </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1094231516_122285060'
+
+
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (17.9ms)
+
+
+Started GET "/" for ::1 at 2015-10-17 02:25:14 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 103ms (Views: 102.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.self-5fbc16b569870d760da7f96d579b51c579072e20c40c7c4cef708b0438da13f1.css?body=1" for ::1 at 2015-10-17 02:25:14 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-17 02:25:14 +0200
+
+
+Started GET "/assets/static_pages.self-c6e889aec919d691cf784c652177ab2507b7ce118c00fa9ca92bf47c33d76cc5.css?body=1" for ::1 at 2015-10-17 02:25:14 +0200
+
+
+Started GET "/" for ::1 at 2015-10-17 02:25:15 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 75ms (Views: 74.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-c6e889aec919d691cf784c652177ab2507b7ce118c00fa9ca92bf47c33d76cc5.css?body=1" for ::1 at 2015-10-17 02:25:15 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-17 02:25:15 +0200
+
+
+Started GET "/assets/style.self-5fbc16b569870d760da7f96d579b51c579072e20c40c7c4cef708b0438da13f1.css?body=1" for ::1 at 2015-10-17 02:25:15 +0200
+
+
+Started GET "/" for ::1 at 2015-10-17 02:25:16 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 64ms (Views: 63.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-17 02:25:16 +0200
+
+
+Started GET "/assets/style.self-5fbc16b569870d760da7f96d579b51c579072e20c40c7c4cef708b0438da13f1.css?body=1" for ::1 at 2015-10-17 02:25:16 +0200
+
+
+Started GET "/assets/static_pages.self-c6e889aec919d691cf784c652177ab2507b7ce118c00fa9ca92bf47c33d76cc5.css?body=1" for ::1 at 2015-10-17 02:25:16 +0200
+
+
+Started GET "/" for ::1 at 2015-10-17 02:25:17 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 57ms (Views: 56.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.self-5fbc16b569870d760da7f96d579b51c579072e20c40c7c4cef708b0438da13f1.css?body=1" for ::1 at 2015-10-17 02:25:17 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-17 02:25:17 +0200
+
+
+Started GET "/assets/static_pages.self-c6e889aec919d691cf784c652177ab2507b7ce118c00fa9ca92bf47c33d76cc5.css?body=1" for ::1 at 2015-10-17 02:25:17 +0200
+
+
+Started GET "/" for ::1 at 2015-10-17 02:25:18 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 55ms (Views: 54.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-c6e889aec919d691cf784c652177ab2507b7ce118c00fa9ca92bf47c33d76cc5.css?body=1" for ::1 at 2015-10-17 02:25:18 +0200
+
+
+Started GET "/assets/style.self-5fbc16b569870d760da7f96d579b51c579072e20c40c7c4cef708b0438da13f1.css?body=1" for ::1 at 2015-10-17 02:25:18 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-17 02:25:18 +0200
+
+
+Started GET "/" for ::1 at 2015-10-17 02:25:18 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 34ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Permission denied @ utime_failed - C:/Users/Thorvald/Dropbox/Websites/Rails/hello_app/tmp/cache/assets/development/sprockets/v3.0/N5qsKN3GrEoHnaBKw3dtw6u_vxY4N9ek8UJl9QRMug0.cache):
+    2: <html>
+    3:   <head>
+    4:     <title><%= full_title(yield(:title)) %></title>
+    5:     <%= stylesheet_link_tag 'application', media: 'all'%>
+    6:     <%= render 'layouts/shim' %>
+    7:     <%= csrf_meta_tags %>
+    8:   </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1094231516_122285060'
+
+
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (18.6ms)
+
+
+Started GET "/" for ::1 at 2015-10-17 02:25:19 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 80ms (Views: 79.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-c6e889aec919d691cf784c652177ab2507b7ce118c00fa9ca92bf47c33d76cc5.css?body=1" for ::1 at 2015-10-17 02:25:19 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-17 02:25:19 +0200
+
+
+Started GET "/assets/style.self-5fbc16b569870d760da7f96d579b51c579072e20c40c7c4cef708b0438da13f1.css?body=1" for ::1 at 2015-10-17 02:25:19 +0200
+
+
+Started GET "/" for ::1 at 2015-10-17 02:25:19 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 49ms (Views: 48.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-c6e889aec919d691cf784c652177ab2507b7ce118c00fa9ca92bf47c33d76cc5.css?body=1" for ::1 at 2015-10-17 02:25:19 +0200
+
+
+Started GET "/assets/style.self-5fbc16b569870d760da7f96d579b51c579072e20c40c7c4cef708b0438da13f1.css?body=1" for ::1 at 2015-10-17 02:25:19 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-17 02:25:19 +0200
+
+
+Started GET "/" for ::1 at 2015-10-17 02:25:20 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 87ms (Views: 86.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-17 02:25:20 +0200
+
+
+Started GET "/assets/style.self-5fbc16b569870d760da7f96d579b51c579072e20c40c7c4cef708b0438da13f1.css?body=1" for ::1 at 2015-10-17 02:25:20 +0200
+
+
+Started GET "/assets/static_pages.self-c6e889aec919d691cf784c652177ab2507b7ce118c00fa9ca92bf47c33d76cc5.css?body=1" for ::1 at 2015-10-17 02:25:20 +0200
+
+
+Started GET "/" for ::1 at 2015-10-17 02:25:20 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+Completed 200 OK in 53ms (Views: 53.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-c6e889aec919d691cf784c652177ab2507b7ce118c00fa9ca92bf47c33d76cc5.css?body=1" for ::1 at 2015-10-17 02:25:20 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-17 02:25:20 +0200
+
+
+Started GET "/assets/style.self-5fbc16b569870d760da7f96d579b51c579072e20c40c7c4cef708b0438da13f1.css?body=1" for ::1 at 2015-10-17 02:25:20 +0200
+
+
+Started GET "/" for ::1 at 2015-10-17 02:25:21 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Permission denied @ utime_failed - C:/Users/Thorvald/Dropbox/Websites/Rails/hello_app/tmp/cache/assets/development/sprockets/v3.0/5Lly_CA8DZvPhQV2jDQx-Y6P_y3Ygra9t5jfSlGhHDA.cache):
+    2: <html>
+    3:   <head>
+    4:     <title><%= full_title(yield(:title)) %></title>
+    5:     <%= stylesheet_link_tag 'application', media: 'all'%>
+    6:     <%= render 'layouts/shim' %>
+    7:     <%= csrf_meta_tags %>
+    8:   </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1094231516_122285060'
+
+
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (20.9ms)
+
+
+Started GET "/" for ::1 at 2015-10-17 02:25:21 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Permission denied @ utime_failed - C:/Users/Thorvald/Dropbox/Websites/Rails/hello_app/tmp/cache/assets/development/sprockets/v3.0/5Lly_CA8DZvPhQV2jDQx-Y6P_y3Ygra9t5jfSlGhHDA.cache):
+    2: <html>
+    3:   <head>
+    4:     <title><%= full_title(yield(:title)) %></title>
+    5:     <%= stylesheet_link_tag 'application', media: 'all'%>
+    6:     <%= render 'layouts/shim' %>
+    7:     <%= csrf_meta_tags %>
+    8:   </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1094231516_122285060'
+
+
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (18.7ms)
+
+
+Started GET "/" for ::1 at 2015-10-17 02:25:22 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 74ms (Views: 73.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-17 02:25:22 +0200
+
+
+Started GET "/assets/style.self-5fbc16b569870d760da7f96d579b51c579072e20c40c7c4cef708b0438da13f1.css?body=1" for ::1 at 2015-10-17 02:25:22 +0200
+
+
+Started GET "/assets/static_pages.self-c6e889aec919d691cf784c652177ab2507b7ce118c00fa9ca92bf47c33d76cc5.css?body=1" for ::1 at 2015-10-17 02:25:22 +0200
+
+
+Started GET "/" for ::1 at 2015-10-17 02:25:23 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 55ms (Views: 54.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-c6e889aec919d691cf784c652177ab2507b7ce118c00fa9ca92bf47c33d76cc5.css?body=1" for ::1 at 2015-10-17 02:25:23 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-17 02:25:23 +0200
+
+
+Started GET "/assets/style.self-5fbc16b569870d760da7f96d579b51c579072e20c40c7c4cef708b0438da13f1.css?body=1" for ::1 at 2015-10-17 02:25:23 +0200
+
+
+Started GET "/" for ::1 at 2015-10-17 02:25:23 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 45ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Permission denied @ utime_failed - C:/Users/Thorvald/Dropbox/Websites/Rails/hello_app/tmp/cache/assets/development/sprockets/v3.0/N5qsKN3GrEoHnaBKw3dtw6u_vxY4N9ek8UJl9QRMug0.cache):
+    2: <html>
+    3:   <head>
+    4:     <title><%= full_title(yield(:title)) %></title>
+    5:     <%= stylesheet_link_tag 'application', media: 'all'%>
+    6:     <%= render 'layouts/shim' %>
+    7:     <%= csrf_meta_tags %>
+    8:   </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1094231516_122285060'
+
+
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (19.0ms)
+
+
+Started GET "/" for ::1 at 2015-10-17 02:25:24 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 96ms (Views: 95.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-c6e889aec919d691cf784c652177ab2507b7ce118c00fa9ca92bf47c33d76cc5.css?body=1" for ::1 at 2015-10-17 02:25:24 +0200
+
+
+Started GET "/assets/style.self-5fbc16b569870d760da7f96d579b51c579072e20c40c7c4cef708b0438da13f1.css?body=1" for ::1 at 2015-10-17 02:25:24 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-17 02:25:24 +0200
+
+
+Started GET "/" for ::1 at 2015-10-17 02:25:24 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 66ms (Views: 65.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-17 02:25:25 +0200
+
+
+Started GET "/assets/static_pages.self-c6e889aec919d691cf784c652177ab2507b7ce118c00fa9ca92bf47c33d76cc5.css?body=1" for ::1 at 2015-10-17 02:25:25 +0200
+
+
+Started GET "/assets/style.self-5fbc16b569870d760da7f96d579b51c579072e20c40c7c4cef708b0438da13f1.css?body=1" for ::1 at 2015-10-17 02:25:25 +0200
+
+
+Started GET "/" for ::1 at 2015-10-17 02:25:25 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 53ms (Views: 52.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.self-5fbc16b569870d760da7f96d579b51c579072e20c40c7c4cef708b0438da13f1.css?body=1" for ::1 at 2015-10-17 02:25:25 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-17 02:25:25 +0200
+
+
+Started GET "/assets/static_pages.self-c6e889aec919d691cf784c652177ab2507b7ce118c00fa9ca92bf47c33d76cc5.css?body=1" for ::1 at 2015-10-17 02:25:25 +0200
+
+
+Started GET "/" for ::1 at 2015-10-17 02:25:26 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 81ms (Views: 80.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-c6e889aec919d691cf784c652177ab2507b7ce118c00fa9ca92bf47c33d76cc5.css?body=1" for ::1 at 2015-10-17 02:25:26 +0200
+
+
+Started GET "/assets/style.self-5fbc16b569870d760da7f96d579b51c579072e20c40c7c4cef708b0438da13f1.css?body=1" for ::1 at 2015-10-17 02:25:26 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-17 02:25:26 +0200
+
+
+Started GET "/" for ::1 at 2015-10-17 02:25:26 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 48ms (Views: 47.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-c6e889aec919d691cf784c652177ab2507b7ce118c00fa9ca92bf47c33d76cc5.css?body=1" for ::1 at 2015-10-17 02:25:26 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-17 02:25:26 +0200
+
+
+Started GET "/assets/style.self-5fbc16b569870d760da7f96d579b51c579072e20c40c7c4cef708b0438da13f1.css?body=1" for ::1 at 2015-10-17 02:25:26 +0200
+
+
+Started GET "/" for ::1 at 2015-10-17 02:25:26 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 81ms (Views: 81.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-c6e889aec919d691cf784c652177ab2507b7ce118c00fa9ca92bf47c33d76cc5.css?body=1" for ::1 at 2015-10-17 02:25:27 +0200
+
+
+Started GET "/assets/style.self-5fbc16b569870d760da7f96d579b51c579072e20c40c7c4cef708b0438da13f1.css?body=1" for ::1 at 2015-10-17 02:25:27 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-17 02:25:27 +0200
+
+
+Started GET "/" for ::1 at 2015-10-17 02:25:27 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 53ms (Views: 52.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.self-5fbc16b569870d760da7f96d579b51c579072e20c40c7c4cef708b0438da13f1.css?body=1" for ::1 at 2015-10-17 02:25:27 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-17 02:25:27 +0200
+
+
+Started GET "/assets/static_pages.self-c6e889aec919d691cf784c652177ab2507b7ce118c00fa9ca92bf47c33d76cc5.css?body=1" for ::1 at 2015-10-17 02:25:27 +0200
+
+
+Started GET "/" for ::1 at 2015-10-17 02:25:27 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 56ms (Views: 56.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-c6e889aec919d691cf784c652177ab2507b7ce118c00fa9ca92bf47c33d76cc5.css?body=1" for ::1 at 2015-10-17 02:25:27 +0200
+
+
+Started GET "/assets/style.self-5fbc16b569870d760da7f96d579b51c579072e20c40c7c4cef708b0438da13f1.css?body=1" for ::1 at 2015-10-17 02:25:27 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-17 02:25:27 +0200
+
+
+Started GET "/" for ::1 at 2015-10-17 02:25:28 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 54ms (Views: 53.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-c6e889aec919d691cf784c652177ab2507b7ce118c00fa9ca92bf47c33d76cc5.css?body=1" for ::1 at 2015-10-17 02:25:28 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-17 02:25:28 +0200
+
+
+Started GET "/assets/style.self-5fbc16b569870d760da7f96d579b51c579072e20c40c7c4cef708b0438da13f1.css?body=1" for ::1 at 2015-10-17 02:25:28 +0200
+
+
+Started GET "/" for ::1 at 2015-10-17 02:25:28 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 47ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Permission denied @ utime_failed - C:/Users/Thorvald/Dropbox/Websites/Rails/hello_app/tmp/cache/assets/development/sprockets/v3.0/5Lly_CA8DZvPhQV2jDQx-Y6P_y3Ygra9t5jfSlGhHDA.cache):
+    2: <html>
+    3:   <head>
+    4:     <title><%= full_title(yield(:title)) %></title>
+    5:     <%= stylesheet_link_tag 'application', media: 'all'%>
+    6:     <%= render 'layouts/shim' %>
+    7:     <%= csrf_meta_tags %>
+    8:   </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1094231516_122285060'
+
+
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (19.2ms)
+
+
+Started GET "/" for ::1 at 2015-10-17 02:25:28 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 52ms (Views: 52.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-17 02:25:28 +0200
+
+
+Started GET "/assets/style.self-5fbc16b569870d760da7f96d579b51c579072e20c40c7c4cef708b0438da13f1.css?body=1" for ::1 at 2015-10-17 02:25:28 +0200
+
+
+Started GET "/assets/static_pages.self-c6e889aec919d691cf784c652177ab2507b7ce118c00fa9ca92bf47c33d76cc5.css?body=1" for ::1 at 2015-10-17 02:25:28 +0200
+
+
+Started GET "/" for ::1 at 2015-10-17 02:25:28 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 58ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Permission denied @ utime_failed - C:/Users/Thorvald/Dropbox/Websites/Rails/hello_app/tmp/cache/assets/development/sprockets/v3.0/_joZIpZTNw-FmWoFKPZ0rYMGNe7xETTQXhgQnCJpiXk.cache):
+    2: <html>
+    3:   <head>
+    4:     <title><%= full_title(yield(:title)) %></title>
+    5:     <%= stylesheet_link_tag 'application', media: 'all'%>
+    6:     <%= render 'layouts/shim' %>
+    7:     <%= csrf_meta_tags %>
+    8:   </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1094231516_122285060'
+
+
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (19.9ms)
+
+
+Started GET "/" for ::1 at 2015-10-17 02:25:29 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 57ms (Views: 56.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-10-17 02:25:29 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 53ms (Views: 53.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-c6e889aec919d691cf784c652177ab2507b7ce118c00fa9ca92bf47c33d76cc5.css?body=1" for ::1 at 2015-10-17 02:25:29 +0200
+
+
+Started GET "/assets/style.self-5fbc16b569870d760da7f96d579b51c579072e20c40c7c4cef708b0438da13f1.css?body=1" for ::1 at 2015-10-17 02:25:29 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-17 02:25:29 +0200
+
+
+Started GET "/" for ::1 at 2015-10-17 02:25:29 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 55ms (Views: 54.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-17 02:25:29 +0200
+
+
+Started GET "/assets/static_pages.self-c6e889aec919d691cf784c652177ab2507b7ce118c00fa9ca92bf47c33d76cc5.css?body=1" for ::1 at 2015-10-17 02:25:29 +0200
+
+
+Started GET "/assets/style.self-5fbc16b569870d760da7f96d579b51c579072e20c40c7c4cef708b0438da13f1.css?body=1" for ::1 at 2015-10-17 02:25:29 +0200
+
+
+Started GET "/" for ::1 at 2015-10-17 02:25:29 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 58ms (Views: 57.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-c6e889aec919d691cf784c652177ab2507b7ce118c00fa9ca92bf47c33d76cc5.css?body=1" for ::1 at 2015-10-17 02:25:30 +0200
+
+
+Started GET "/assets/style.self-5fbc16b569870d760da7f96d579b51c579072e20c40c7c4cef708b0438da13f1.css?body=1" for ::1 at 2015-10-17 02:25:30 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-17 02:25:30 +0200
+
+
+Started GET "/" for ::1 at 2015-10-17 02:25:30 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Permission denied @ utime_failed - C:/Users/Thorvald/Dropbox/Websites/Rails/hello_app/tmp/cache/assets/development/sprockets/v3.0/5Lly_CA8DZvPhQV2jDQx-Y6P_y3Ygra9t5jfSlGhHDA.cache):
+    2: <html>
+    3:   <head>
+    4:     <title><%= full_title(yield(:title)) %></title>
+    5:     <%= stylesheet_link_tag 'application', media: 'all'%>
+    6:     <%= render 'layouts/shim' %>
+    7:     <%= csrf_meta_tags %>
+    8:   </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1094231516_122285060'
+
+
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (19.7ms)
+
+
+Started GET "/" for ::1 at 2015-10-17 02:25:30 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 56ms (Views: 55.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.self-5fbc16b569870d760da7f96d579b51c579072e20c40c7c4cef708b0438da13f1.css?body=1" for ::1 at 2015-10-17 02:25:31 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-17 02:25:31 +0200
+
+
+Started GET "/assets/static_pages.self-c6e889aec919d691cf784c652177ab2507b7ce118c00fa9ca92bf47c33d76cc5.css?body=1" for ::1 at 2015-10-17 02:25:31 +0200
+
+
+Started GET "/" for ::1 at 2015-10-17 02:25:31 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Permission denied @ utime_failed - C:/Users/Thorvald/Dropbox/Websites/Rails/hello_app/tmp/cache/assets/development/sprockets/v3.0/5Lly_CA8DZvPhQV2jDQx-Y6P_y3Ygra9t5jfSlGhHDA.cache):
+    2: <html>
+    3:   <head>
+    4:     <title><%= full_title(yield(:title)) %></title>
+    5:     <%= stylesheet_link_tag 'application', media: 'all'%>
+    6:     <%= render 'layouts/shim' %>
+    7:     <%= csrf_meta_tags %>
+    8:   </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1094231516_122285060'
+
+
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (19.4ms)
+
+
+Started GET "/" for ::1 at 2015-10-17 02:26:15 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 93ms (Views: 92.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.self-5fbc16b569870d760da7f96d579b51c579072e20c40c7c4cef708b0438da13f1.css?body=1" for ::1 at 2015-10-17 02:26:15 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-17 02:26:15 +0200
+
+
+Started GET "/assets/static_pages.self-c6e889aec919d691cf784c652177ab2507b7ce118c00fa9ca92bf47c33d76cc5.css?body=1" for ::1 at 2015-10-17 02:26:15 +0200
+
+
+Started GET "/about" for ::1 at 2015-10-17 02:27:13 +0200
+
+ActionController::RoutingError (No route matches [GET] "/about"):
+  actionpack (4.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  C:/Ruby21-x64/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  C:/Ruby21-x64/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  C:/Ruby21-x64/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.5ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (24.1ms)
+
+
+Started GET "/static_pages/about" for ::1 at 2015-10-17 02:27:29 +0200
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 92ms (Views: 91.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/static_pages/home" for ::1 at 2015-10-17 02:27:49 +0200
+
+ActionController::RoutingError (No route matches [GET] "/static_pages/home"):
+  actionpack (4.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.2) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.2) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  C:/Ruby21-x64/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  C:/Ruby21-x64/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  C:/Ruby21-x64/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (23.6ms)
+
+
+Started GET "/" for ::1 at 2015-10-17 02:27:53 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 64ms (Views: 64.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-10-17 02:28:03 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 61ms (Views: 60.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-17 02:28:03 +0200
+
+
+Started GET "/assets/style.self-5fbc16b569870d760da7f96d579b51c579072e20c40c7c4cef708b0438da13f1.css?body=1" for ::1 at 2015-10-17 02:28:03 +0200
+
+
+Started GET "/assets/static_pages.self-c6e889aec919d691cf784c652177ab2507b7ce118c00fa9ca92bf47c33d76cc5.css?body=1" for ::1 at 2015-10-17 02:28:03 +0200
+
+
+Started GET "/" for ::1 at 2015-10-17 02:28:25 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 54ms (Views: 53.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-c6e889aec919d691cf784c652177ab2507b7ce118c00fa9ca92bf47c33d76cc5.css?body=1" for ::1 at 2015-10-17 02:28:25 +0200
+
+
+Started GET "/assets/style.self-5fbc16b569870d760da7f96d579b51c579072e20c40c7c4cef708b0438da13f1.css?body=1" for ::1 at 2015-10-17 02:28:25 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-17 02:28:25 +0200
+
+
+Started GET "/" for ::1 at 2015-10-17 02:28:55 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 58ms (Views: 57.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.self-5fbc16b569870d760da7f96d579b51c579072e20c40c7c4cef708b0438da13f1.css?body=1" for ::1 at 2015-10-17 02:28:55 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-17 02:28:55 +0200
+
+
+Started GET "/assets/static_pages.self-c6e889aec919d691cf784c652177ab2507b7ce118c00fa9ca92bf47c33d76cc5.css?body=1" for ::1 at 2015-10-17 02:28:55 +0200
+
+
+Started GET "/" for ::1 at 2015-10-17 02:29:29 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 134ms (Views: 133.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-c6e889aec919d691cf784c652177ab2507b7ce118c00fa9ca92bf47c33d76cc5.css?body=1" for ::1 at 2015-10-17 02:29:29 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-17 02:29:29 +0200
+
+
+Started GET "/assets/style.self-0252f796e03bff23aebc7bd6dcb316ee67b36135baf737428b0d509c833628b3.css?body=1" for ::1 at 2015-10-17 02:29:29 +0200
+
+
+Started GET "/" for ::1 at 2015-10-17 02:40:41 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 887ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Permission denied @ utime_failed - C:/Users/Thorvald/Dropbox/Websites/Rails/hello_app/tmp/cache/assets/development/sprockets/v3.0/HUU_nse-hwVgL5unKSgI7Qeyguj3Mg13L00oBPI8O-I.cache):
+    2: <html>
+    3:   <head>
+    4:     <title><%= full_title(yield(:title)) %></title>
+    5:     <%= stylesheet_link_tag 'application', media: 'all'%>
+    6:     <%= render 'layouts/shim' %>
+    7:   	<%= csrf_meta_tags %>
+    8:   </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1094231516_119021620'
+
+
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (22.8ms)
+
+
+Started GET "/" for ::1 at 2015-10-17 02:40:45 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 902ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Permission denied @ utime_failed - C:/Users/Thorvald/Dropbox/Websites/Rails/hello_app/tmp/cache/assets/development/sprockets/v3.0/fBMwFJuS-rIb-EERxw1iaSIaghNgiq70eJ6E7LX0Gcs.cache):
+    2: <html>
+    3:   <head>
+    4:     <title><%= full_title(yield(:title)) %></title>
+    5:     <%= stylesheet_link_tag 'application', media: 'all'%>
+    6:     <%= render 'layouts/shim' %>
+    7:   	<%= csrf_meta_tags %>
+    8:   </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1094231516_119021620'
+
+
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (21.0ms)
+
+
+Started GET "/" for ::1 at 2015-10-17 02:40:48 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 1321ms (Views: 1320.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-c6e889aec919d691cf784c652177ab2507b7ce118c00fa9ca92bf47c33d76cc5.css?body=1" for ::1 at 2015-10-17 02:40:49 +0200
+
+
+Started GET "/assets/style.self-6888d2a0cd5c187ea914fd8143e9dfcba6484c287fa16392e611f13e3e3dac8e.css?body=1" for ::1 at 2015-10-17 02:40:49 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-10-17 02:40:49 +0200
+
+
+Started GET "/" for ::1 at 2015-10-17 02:40:51 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Permission denied @ utime_failed - C:/Users/Thorvald/Dropbox/Websites/Rails/hello_app/tmp/cache/assets/development/sprockets/v3.0/5Lly_CA8DZvPhQV2jDQx-Y6P_y3Ygra9t5jfSlGhHDA.cache):
+    2: <html>
+    3:   <head>
+    4:     <title><%= full_title(yield(:title)) %></title>
+    5:     <%= stylesheet_link_tag 'application', media: 'all'%>
+    6:     <%= render 'layouts/shim' %>
+    7:   	<%= csrf_meta_tags %>
+    8:   </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1094231516_119021620'
+
+
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (22.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-19 09:35:34 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (15.0ms)
+  Rendered layouts/_shim.html.erb (1.0ms)
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (2.0ms)
+Completed 200 OK in 2922ms (Views: 2858.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-c6e889aec919d691cf784c652177ab2507b7ce118c00fa9ca92bf47c33d76cc5.css?body=1" for 127.0.0.1 at 2015-10-19 09:35:40 +0200
+
+
+Started GET "/assets/style.self-6888d2a0cd5c187ea914fd8143e9dfcba6484c287fa16392e611f13e3e3dac8e.css?body=1" for 127.0.0.1 at 2015-10-19 09:35:40 +0200
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-10-19 09:35:40 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-20 08:50:12 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (32.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (1.5ms)
+Completed 200 OK in 2874ms (Views: 2805.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-29 12:05:03 +0100
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (32.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (4.0ms)
+  Rendered layouts/_footer.html.erb (4.0ms)
+Completed 200 OK in 2649ms (Views: 2581.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-29 12:05:08 +0100
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 1014ms (Views: 1009.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-29 12:29:49 +0100
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (15.5ms)
+  Rendered layouts/_shim.html.erb (4.0ms)
+  Rendered layouts/_header.html.erb (4.0ms)
+  Rendered layouts/_footer.html.erb (4.0ms)
+Completed 200 OK in 3148ms (Views: 3082.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-c6e889aec919d691cf784c652177ab2507b7ce118c00fa9ca92bf47c33d76cc5.css?body=1" for 127.0.0.1 at 2015-10-29 12:29:55 +0100
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-10-29 12:29:55 +0100
+
+
+Started GET "/assets/style.self-6888d2a0cd5c187ea914fd8143e9dfcba6484c287fa16392e611f13e3e3dac8e.css?body=1" for 127.0.0.1 at 2015-10-29 12:29:55 +0100
+
+
+Started GET "/help" for 127.0.0.1 at 2015-10-29 12:30:08 +0100
+Processing by StaticPagesController#help as HTML
+  Rendered static_pages/help.html.erb within layouts/application (1.5ms)
+Completed 500 Internal Server Error in 269ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Permission denied @ utime_failed - C:/Users/Thorvald/dropbox/websites/rails/hello_app/tmp/cache/assets/development/sprockets/v3.0/5Lly_CA8DZvPhQV2jDQx-Y6P_y3Ygra9t5jfSlGhHDA.cache):
+    2: <html>
+    3:   <head>
+    4:     <title><%= full_title(yield(:title)) %></title>
+    5:     <%= stylesheet_link_tag 'application', media: 'all'%>
+    6:     <%= render 'layouts/shim' %>
+    7:   	<%= csrf_meta_tags %>
+    8:   </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__920903611_69110140'
+
+
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (20.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (184.0ms)
+
+
+Started GET "/help" for 127.0.0.1 at 2015-10-29 12:30:24 +0100
+Processing by StaticPagesController#help as HTML
+  Rendered static_pages/help.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 243ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Permission denied @ utime_failed - C:/Users/Thorvald/dropbox/websites/rails/hello_app/tmp/cache/assets/development/sprockets/v3.0/5Lly_CA8DZvPhQV2jDQx-Y6P_y3Ygra9t5jfSlGhHDA.cache):
+    2: <html>
+    3:   <head>
+    4:     <title><%= full_title(yield(:title)) %></title>
+    5:     <%= stylesheet_link_tag 'application', media: 'all'%>
+    6:     <%= render 'layouts/shim' %>
+    7:   	<%= csrf_meta_tags %>
+    8:   </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__920903611_69110140'
+
+
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (23.8ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (178.3ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2015-10-29 12:30:33 +0100
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 200ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Permission denied @ utime_failed - C:/Users/Thorvald/dropbox/websites/rails/hello_app/tmp/cache/assets/development/sprockets/v3.0/5Lly_CA8DZvPhQV2jDQx-Y6P_y3Ygra9t5jfSlGhHDA.cache):
+    2: <html>
+    3:   <head>
+    4:     <title><%= full_title(yield(:title)) %></title>
+    5:     <%= stylesheet_link_tag 'application', media: 'all'%>
+    6:     <%= render 'layouts/shim' %>
+    7:   	<%= csrf_meta_tags %>
+    8:   </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__920903611_69110140'
+
+
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (20.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (184.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2015-10-29 12:31:26 +0100
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 775ms (Views: 773.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-c6e889aec919d691cf784c652177ab2507b7ce118c00fa9ca92bf47c33d76cc5.css?body=1" for 127.0.0.1 at 2015-10-29 12:31:27 +0100
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-10-29 12:31:27 +0100
+
+
+Started GET "/assets/style.self-6888d2a0cd5c187ea914fd8143e9dfcba6484c287fa16392e611f13e3e3dac8e.css?body=1" for 127.0.0.1 at 2015-10-29 12:31:27 +0100
+
+
+Started GET "/about" for 127.0.0.1 at 2015-10-29 12:31:35 +0100
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 191ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Permission denied @ utime_failed - C:/Users/Thorvald/dropbox/websites/rails/hello_app/tmp/cache/assets/development/sprockets/v3.0/5Lly_CA8DZvPhQV2jDQx-Y6P_y3Ygra9t5jfSlGhHDA.cache):
+    2: <html>
+    3:   <head>
+    4:     <title><%= full_title(yield(:title)) %></title>
+    5:     <%= stylesheet_link_tag 'application'%>
+    6:     <%= render 'layouts/shim' %>
+    7:   	<%= csrf_meta_tags %>
+    8:   </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__920903611_100275420'
+
+
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (47.5ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (300.0ms)
+
+
+Started GET "/help" for 127.0.0.1 at 2015-10-29 12:31:36 +0100
+Processing by StaticPagesController#help as HTML
+  Rendered static_pages/help.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 214ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Permission denied @ utime_failed - C:/Users/Thorvald/dropbox/websites/rails/hello_app/tmp/cache/assets/development/sprockets/v3.0/5Lly_CA8DZvPhQV2jDQx-Y6P_y3Ygra9t5jfSlGhHDA.cache):
+    2: <html>
+    3:   <head>
+    4:     <title><%= full_title(yield(:title)) %></title>
+    5:     <%= stylesheet_link_tag 'application'%>
+    6:     <%= render 'layouts/shim' %>
+    7:   	<%= csrf_meta_tags %>
+    8:   </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__920903611_100275420'
+
+
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (40.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (20.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (224.0ms)
+
+
+Started GET "/help" for 127.0.0.1 at 2015-10-29 12:31:52 +0100
+Processing by StaticPagesController#help as HTML
+  Rendered static_pages/help.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 226ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Permission denied @ utime_failed - C:/Users/Thorvald/dropbox/websites/rails/hello_app/tmp/cache/assets/development/sprockets/v3.0/5Lly_CA8DZvPhQV2jDQx-Y6P_y3Ygra9t5jfSlGhHDA.cache):
+    2: <html>
+    3:   <head>
+    4:     <title><%= full_title(yield(:title)) %></title>
+    5:     <%= stylesheet_link_tag 'application'%>
+    6:     <%= render 'layouts/shim' %>
+    7:   	<%= csrf_meta_tags %>
+    8:   </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__920903611_100275420'
+
+
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (20.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (204.0ms)
+
+
+Started GET "/help" for 127.0.0.1 at 2015-10-29 12:31:57 +0100
+Processing by StaticPagesController#help as HTML
+  Rendered static_pages/help.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 192ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Permission denied @ utime_failed - C:/Users/Thorvald/dropbox/websites/rails/hello_app/tmp/cache/assets/development/sprockets/v3.0/5Lly_CA8DZvPhQV2jDQx-Y6P_y3Ygra9t5jfSlGhHDA.cache):
+    2: <html>
+    3:   <head>
+    4:     <title><%= full_title(yield(:title)) %></title>
+    5:     <%= stylesheet_link_tag 'application'%>
+    6:     <%= render 'layouts/shim' %>
+    7:   	<%= csrf_meta_tags %>
+    8:   </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__920903611_100275420'
+
+
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (20.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (180.0ms)
+
+
+Started GET "/help" for 127.0.0.1 at 2015-10-29 12:32:00 +0100
+Processing by StaticPagesController#help as HTML
+  Rendered static_pages/help.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 204ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Permission denied @ utime_failed - C:/Users/Thorvald/dropbox/websites/rails/hello_app/tmp/cache/assets/development/sprockets/v3.0/5Lly_CA8DZvPhQV2jDQx-Y6P_y3Ygra9t5jfSlGhHDA.cache):
+    2: <html>
+    3:   <head>
+    4:     <title><%= full_title(yield(:title)) %></title>
+    5:     <%= stylesheet_link_tag 'application'%>
+    6:     <%= render 'layouts/shim' %>
+    7:   	<%= csrf_meta_tags %>
+    8:   </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__920903611_100275420'
+
+
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (19.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (189.9ms)
+
+
+Started GET "/help" for 127.0.0.1 at 2015-10-29 12:32:18 +0100
+Processing by StaticPagesController#help as HTML
+  Rendered static_pages/help.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 227ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Permission denied @ utime_failed - C:/Users/Thorvald/dropbox/websites/rails/hello_app/tmp/cache/assets/development/sprockets/v3.0/5Lly_CA8DZvPhQV2jDQx-Y6P_y3Ygra9t5jfSlGhHDA.cache):
+    2: <html>
+    3:   <head>
+    4:     <title><%= full_title(yield(:title)) %></title>
+    5:     <%= stylesheet_link_tag 'application'%>
+    6:     <%= render 'layouts/shim' %>
+    7:   	<%= csrf_meta_tags %>
+    8:   </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__920903611_100275420'
+
+
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (20.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (208.0ms)
+
+
+Started GET "/help" for 127.0.0.1 at 2015-10-29 12:36:39 +0100
+Processing by StaticPagesController#help as HTML
+  Rendered static_pages/help.html.erb within layouts/application (12.0ms)
+Completed 500 Internal Server Error in 26452ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Permission denied @ utime_failed - C:/Users/Thorvald/dropbox/websites/rails/hello_app/tmp/cache/assets/development/sprockets/v3.0/S8Ckr1aseakW9kt4Tqj_wRHrsrgu1M7BYIeph3GIra0.cache):
+    2: <html>
+    3:   <head>
+    4:     <title><%= full_title(yield(:title)) %></title>
+    5:     <%= stylesheet_link_tag 'application'%>
+    6:     <%= render 'layouts/shim' %>
+    7:   	<%= csrf_meta_tags %>
+    8:   </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1139700472_69731500'
+
+
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (27.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (192.4ms)
+
+
+Started GET "/help" for 127.0.0.1 at 2015-10-29 12:37:10 +0100
+Processing by StaticPagesController#help as HTML
+  Rendered static_pages/help.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 7757ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Permission denied @ utime_failed - C:/Users/Thorvald/dropbox/websites/rails/hello_app/tmp/cache/assets/development/sprockets/v3.0/s_ummzAgl2_CEw_Xm6qBWeiaRqRAujr0XLjdU3V-i2E.cache):
+    2: <html>
+    3:   <head>
+    4:     <title><%= full_title(yield(:title)) %></title>
+    5:     <%= stylesheet_link_tag 'application'%>
+    6:     <%= render 'layouts/shim' %>
+    7:   	<%= csrf_meta_tags %>
+    8:   </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1139700472_69731500'
+
+
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (29.5ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (180.9ms)
+
+
+Started GET "/help" for 127.0.0.1 at 2015-10-29 12:40:19 +0100
+Processing by StaticPagesController#help as HTML
+  Rendered static_pages/help.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 16141ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Permission denied @ utime_failed - C:/Users/Thorvald/dropbox/websites/rails/hello_app/tmp/cache/assets/development/sprockets/v3.0/QWwbaLwjhJwH0_auJZFaaRnFQ9N_xFznTArG8XNOpE0.cache):
+    2: <html>
+    3:   <head>
+    4:     <title><%= full_title(yield(:title)) %></title>
+    5:     <%= stylesheet_link_tag 'application'%>
+    6:     <%= render 'layouts/shim' %>
+    7:   	<%= csrf_meta_tags %>
+    8:   </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1139700472_69731500'
+
+
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (26.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (5.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (262.2ms)
+
+
+Started GET "/" for ::1 at 2015-10-30 09:11:55 +0100
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (72.0ms)
+Completed 500 Internal Server Error in 212ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined local variable or method `signup_path' for #<#<Class:0x00000007cf2fb8>:0x00000007ceb650>):
+     8: 			<a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+     9: 			sample application.
+    10: 		</h2>
+    11: 		<%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %>
+    12: 	</div>
+    13: </body>
+    14: </html>
+  app/views/static_pages/home.html.erb:11:in `_app_views_static_pages_home_html_erb__1852053606_65241980'
+
+
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.5ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (16.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (173.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-30 09:33:27 +0100
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (81.5ms)
+Completed 500 Internal Server Error in 232ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (undefined local variable or method `signup_path' for #<#<Class:0x000000084615b0>:0x00000008458e10>):
+     8: 			<a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+     9: 			sample application.
+    10: 		</h2>
+    11: 		<%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %>
+    12: 	</div>
+    13: </body>
+    14: </html>
+  app/views/static_pages/home.html.erb:11:in `_app_views_static_pages_home_html_erb___1704345604_69126700'
+
+
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (16.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (168.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-30 09:34:31 +0100
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (4.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 13139ms (Views: 13137.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-c6e889aec919d691cf784c652177ab2507b7ce118c00fa9ca92bf47c33d76cc5.css?body=1" for 127.0.0.1 at 2015-10-30 09:34:45 +0100
+
+
+Started GET "/assets/style.self-b481e904eb7cafe1ff0cba37491a9b4aee927f960043af99fd3fb2231c142c5b.css?body=1" for 127.0.0.1 at 2015-10-30 09:34:46 +0100
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-10-30 09:34:46 +0100
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-10-30 09:34:46 +0100
+
+
+Started GET "/signup" for 127.0.0.1 at 2015-10-30 09:34:49 +0100
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (4.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 1156ms (Views: 1153.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2015-10-30 09:34:57 +0100
+Processing by StaticPagesController#about as HTML
+  Rendered static_pages/about.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (4.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 809ms (Views: 806.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-30 09:35:02 +0100
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (4.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 1013ms (Views: 1011.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2015-10-30 09:35:06 +0100
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 796ms (Views: 791.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-30 09:35:08 +0100
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (4.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 786ms (Views: 782.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-30 09:39:32 +0100
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 889ms (Views: 887.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.self-c6e889aec919d691cf784c652177ab2507b7ce118c00fa9ca92bf47c33d76cc5.css?body=1" for 127.0.0.1 at 2015-10-30 09:39:34 +0100
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-10-30 09:39:34 +0100
+
+
+Started GET "/assets/style.self-b481e904eb7cafe1ff0cba37491a9b4aee927f960043af99fd3fb2231c142c5b.css?body=1" for 127.0.0.1 at 2015-10-30 09:39:34 +0100
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-10-30 09:39:34 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-30 09:39:39 +0100
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 212ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Permission denied @ utime_failed - C:/Users/Thorvald/dropbox/websites/rails/hello_app/tmp/cache/assets/development/sprockets/v3.0/5Lly_CA8DZvPhQV2jDQx-Y6P_y3Ygra9t5jfSlGhHDA.cache):
+    2: <html>
+    3:   <head>
+    4:     <title><%= full_title(yield(:title)) %></title>
+    5:     <%= stylesheet_link_tag 'application'%>
+    6:     <%= render 'layouts/shim' %>
+    7:   	<%= csrf_meta_tags %>
+    8:   </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___786560818_69108920'
+
+
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (20.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (184.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-30 09:40:17 +0100
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 903ms (Views: 901.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.self-b481e904eb7cafe1ff0cba37491a9b4aee927f960043af99fd3fb2231c142c5b.css?body=1" for 127.0.0.1 at 2015-10-30 09:40:19 +0100
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-10-30 09:40:19 +0100
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-10-30 09:40:19 +0100
+
+
+Started GET "/assets/static_pages.self-c6e889aec919d691cf784c652177ab2507b7ce118c00fa9ca92bf47c33d76cc5.css?body=1" for 127.0.0.1 at 2015-10-30 09:40:19 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-30 09:40:22 +0100
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 226ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Permission denied @ utime_failed - C:/Users/Thorvald/dropbox/websites/rails/hello_app/tmp/cache/assets/development/sprockets/v3.0/5Lly_CA8DZvPhQV2jDQx-Y6P_y3Ygra9t5jfSlGhHDA.cache):
+    2: <html>
+    3:   <head>
+    4:     <title><%= full_title(yield(:title)) %></title>
+    5:     <%= stylesheet_link_tag 'application'%>
+    6:     <%= render 'layouts/shim' %>
+    7:   	<%= csrf_meta_tags %>
+    8:   </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___786560818_69108920'
+
+
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.5ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (19.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (322.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-30 09:45:44 +0100
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 290ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Permission denied @ utime_failed - C:/Users/Thorvald/dropbox/websites/rails/hello_app/tmp/cache/assets/development/sprockets/v3.0/5Lly_CA8DZvPhQV2jDQx-Y6P_y3Ygra9t5jfSlGhHDA.cache):
+    2: <html>
+    3:   <head>
+    4:     <title><%= full_title(yield(:title)) %></title>
+    5:     <%= stylesheet_link_tag 'application'%>
+    6:     <%= render 'layouts/shim' %>
+    7:   	<%= csrf_meta_tags %>
+    8:   </head>
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___786560818_69108920'
+
+
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.0ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (28.5ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (5.5ms)
+  Rendered C:/Ruby21-x64/lib/ruby/gems/2.1.0/gems/actionpack-4.2.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (318.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-30 10:12:42 +0100
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (16.0ms)
+  Rendered layouts/_shim.html.erb (2.0ms)
+  Rendered layouts/_header.html.erb (5.5ms)
+  Rendered layouts/_footer.html.erb (3.5ms)
+Completed 200 OK in 2644ms (Views: 2587.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.self-b481e904eb7cafe1ff0cba37491a9b4aee927f960043af99fd3fb2231c142c5b.css?body=1" for 127.0.0.1 at 2015-10-30 10:12:47 +0100
+
+
+Started GET "/assets/users.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-10-30 10:12:47 +0100
+
+
+Started GET "/assets/static_pages.self-c6e889aec919d691cf784c652177ab2507b7ce118c00fa9ca92bf47c33d76cc5.css?body=1" for 127.0.0.1 at 2015-10-30 10:12:47 +0100
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-10-30 10:12:48 +0100
+
+
+Started GET "/signup" for 127.0.0.1 at 2015-10-30 10:12:51 +0100
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_shim.html.erb (4.0ms)
+  Rendered layouts/_header.html.erb (4.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 908ms (Views: 897.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-30 10:12:53 +0100
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (4.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 985ms (Views: 981.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-05 08:33:15 +0100
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (17.5ms)
+  Rendered layouts/_shim.html.erb (4.0ms)
+  Rendered layouts/_header.html.erb (4.0ms)
+  Rendered layouts/_footer.html.erb (4.0ms)
+Completed 200 OK in 5047ms (Views: 4977.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-05 08:33:46 +0100
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 1586ms (Views: 1584.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.self-b481e904eb7cafe1ff0cba37491a9b4aee927f960043af99fd3fb2231c142c5b.css?body=1" for 127.0.0.1 at 2015-11-05 08:33:49 +0100
+
+
+Started GET "/signup" for 127.0.0.1 at 2015-11-05 08:35:11 +0100
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  Rendered layouts/_header.html.erb (4.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 1781ms (Views: 1777.7ms | ActiveRecord: 0.0ms)
+  [1m[36m (93.7ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (62.5ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.0ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateUsers (20151105074257)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "email" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20151105074257"]]
+  [1m[35m (93.8ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (15.7ms)[0m  [1mINSERT INTO "users" ("name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Thorvald Kjartansson"], ["email", "test@test.com"], ["created_at", "2015-11-05 08:03:19.843537"], ["updated_at", "2015-11-05 08:03:19.843537"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (15.6ms)[0m  INSERT INTO "users" ("name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["name", "A nother"], ["email", "test2@test.com"], ["created_at", "2015-11-05 08:05:36.626907"], ["updated_at", "2015-11-05 08:05:36.626907"]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "users" ("name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Foo"], ["email", "foo@bar.com"], ["created_at", "2015-11-05 08:07:02.962765"], ["updated_at", "2015-11-05 08:07:02.962765"]]
+  [1m[35m (0.5ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.0ms)[0m  DELETE FROM "users" WHERE "users"."id" = ?  [["id", 3]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36m (0.0ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (15.6ms)[0m  UPDATE "users" SET "email" = ?, "updated_at" = ? WHERE "users"."id" = ?  [["email", "tester@test.com"], ["updated_at", "2015-11-05 08:10:04.118695"], ["id", 1]]
+  [1m[36m (0.0ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.0ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.0ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (15.6ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (4.0ms)[0m  [1mINSERT INTO "users" ("name", "email", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "The Dude"], ["email", "test@test.com"], ["created_at", "2015-11-09 11:40:50.291082"], ["updated_at", "2015-11-09 11:40:50.291082"]]
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (4.0ms)[0m  [1mrollback transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddIndexToUserEmail (20151109120719)
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (15.6ms)[0m  CREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20151109120719"]]
+  [1m[35m (109.4ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (15.6ms)[0m              SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddPasswordDigestToUsers (20151109121808)
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (15.6ms)[0m  [1mALTER TABLE "users" ADD "password_digest" varchar[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20151109121808"]]
+  [1m[36m (109.4ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.0ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.0ms)[0m  [1m            SELECT sql
+            FROM sqlite_master
+            WHERE name='index_users_on_email' AND type='index'
+            UNION ALL
+            SELECT sql
+            FROM sqlite_temp_master
+            WHERE name='index_users_on_email' AND type='index'
+[0m
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.0ms)[0m  SELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('thorvaldha@gmail.com') LIMIT 1
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Thorvald Kjartansson"], ["email", "thorvaldha@gmail.com"], ["password_digest", "$2a$10$BHj85ysjO6HLFi2oI8AnneONihuCZ1tYyY/XhVUbMNPGy4IpeFobe"], ["created_at", "2015-11-16 12:01:48.047137"], ["updated_at", "2015-11-16 12:01:48.047137"]]
+  [1m[35m (78.1ms)[0m  commit transaction
+  [1m[36mUser Load (15.6ms)[0m  [1mSELECT  "users".* FROM "users" WHERE (1) LIMIT 1[0m
